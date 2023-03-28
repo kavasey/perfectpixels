@@ -1,0 +1,20 @@
+{
+  "name": "perfectpixels",
+  "version": "1.0.0",
+  "description": "perfect pixels website template or theme",
+  "main": "index.js",
+  "author": "Amazing Sey",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.60.0",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "eslint": "^8.36.0"
+  }
+}
