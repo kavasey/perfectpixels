@@ -1,0 +1,49 @@
+@use 'mixins/include-media' as *;
+// base
+body {
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+// Container
+.container {
+  --container-width: var(--container-lg);
+  --container-gutter: 30px;
+  @include media('<=550px') {
+    --container-gutter: 20px;
+  }
+  max-width: calc(var(--container-width) + (var(--container-gutter) * 2));
+  padding-left: var(--container-gutter);
+  padding-right: var(--container-gutter);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  &-page {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  &-outer {
+    // Container can be manipulated by offscreen components (if needed)
+  }
+  // Modified container sizes
+  &--med {
+    --container-width: 1200px;
+    max-width: calc(var(--container-med) + (var(--container-gutter) * 2));
+  }
+
+  &--sml {
+    --container-width: 1060px;
+    max-width: calc(var(--container-sml) + (var(--container-gutter) * 2));
+  }
+
+  &--lge {
+    --container-width: 920px;
+    max-width: calc(var(--container-sml) + (var(--container-gutter) * 4));
+  }
+
+
+}

@@ -1,0 +1,19 @@
+.m-banner {
+  height: var(--banner-height);
+
+  .container {
+    height: 100%;
+  }
+
+  &__text {
+
+  }
+  &__media {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+.-full-height {
+  --banner-height: 100vh;
+}

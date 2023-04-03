@@ -1,0 +1,62 @@
+/* @link https://utopia.fyi/type/calculator?c=320,18,1.125,1440,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--2: clamp(0.80rem, calc(0.91rem + -0.13vw), 0.89rem);
+  --step--1: clamp(1.00rem, calc(1.00rem + 0.00vw), 1.00rem);
+  --step-0: clamp(1.13rem, calc(1.09rem + 0.18vw), 1.25rem);
+  --step-1: clamp(1.27rem, calc(1.18rem + 0.42vw), 1.56rem);
+  --step-2: clamp(1.42rem, calc(1.27rem + 0.76vw), 1.95rem);
+  --step-3: clamp(1.60rem, calc(1.36rem + 1.20vw), 2.44rem);
+  --step-4: clamp(1.80rem, calc(1.44rem + 1.79vw), 3.05rem);
+  --step-5: clamp(2.03rem, calc(1.52rem + 2.55vw), 3.82rem);
+}
+
+/* @link https://utopia.fyi/space/calculator?c=320,18,1.125,1440,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
+  --space-2xs: clamp(0.56rem, calc(0.54rem + 0.09vw), 0.63rem);
+  --space-xs: clamp(0.88rem, calc(0.86rem + 0.09vw), 0.94rem);
+  --space-s: clamp(1.13rem, calc(1.09rem + 0.18vw), 1.25rem);
+  --space-m: clamp(1.69rem, calc(1.63rem + 0.27vw), 1.88rem);
+  --space-l: clamp(2.25rem, calc(2.18rem + 0.36vw), 2.50rem);
+  --space-xl: clamp(3.38rem, calc(3.27rem + 0.54vw), 3.75rem);
+  --space-2xl: clamp(4.50rem, calc(4.36rem + 0.71vw), 5.00rem);
+  --space-3xl: clamp(6.75rem, calc(6.54rem + 1.07vw), 7.50rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.31rem, calc(0.22rem + 0.45vw), 0.63rem);
+  --space-2xs-xs: clamp(0.56rem, calc(0.46rem + 0.54vw), 0.94rem);
+  --space-xs-s: clamp(0.88rem, calc(0.77rem + 0.54vw), 1.25rem);
+  --space-s-m: clamp(1.13rem, calc(0.91rem + 1.07vw), 1.88rem);
+  --space-m-l: clamp(1.69rem, calc(1.46rem + 1.16vw), 2.50rem);
+  --space-l-xl: clamp(2.25rem, calc(1.82rem + 2.14vw), 3.75rem);
+  --space-xl-2xl: clamp(3.38rem, calc(2.91rem + 2.32vw), 5.00rem);
+  --space-2xl-3xl: clamp(4.50rem, calc(3.64rem + 4.29vw), 7.50rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.13rem, calc(0.73rem + 1.96vw), 2.50rem);
+}
+
+:root {
+  --container-gutter: 30px;
+  --container-lg: 1440px;
+  --container-std: 1360px;
+  --container-med: 1200px;
+  --container-sml: 1060px;
+  --container-reading-mode: 768px;
+
+  --color-primary: #e4052d;
+  --color-primary-lighter: rgba(46, 29, 156, 0.03);
+  --color-secondary: #2e1d9c;
+  --color-secondary-dark: #1C144F;
+  --color-secondary-light: rgba(46,29,156, 0.3);
+
+  --btn-primary-bg-color: var(--color-primary);
+  --btn-primary-hover-color: var(--color-secondary);
+
+  --btn-secondary-bg-color: var(--color-secondary);
+  --btn-secondary-hover-color: var(--color-primary);
+
+
+}

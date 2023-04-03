@@ -1,0 +1,12 @@
+.main-nav {
+  display: flex;
+  list-style: none;
+
+  a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: var(--step-0);
+    font-weight: 600;
+    padding: var(--space-s) var(--space-m);
+  }
+}

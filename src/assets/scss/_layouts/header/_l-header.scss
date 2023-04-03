@@ -1,0 +1,18 @@
+/* header layouts ***/
+.l-header-v1 {
+  .header__row {
+    justify-content: space-between;
+  }
+}
+
+.l-header-v2 {
+  .header__col.-left {
+    margin-right: auto;
+  }
+}
+
+.l-header-v3 {
+  .header__col.-right {
+    margin-left: auto;
+  }
+}

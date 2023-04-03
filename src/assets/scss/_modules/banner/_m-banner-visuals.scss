@@ -1,0 +1,18 @@
+.m-banner {
+  &__media {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      left: -40px;
+      top: 0;
+      right: 0;
+      background-repeat: no-repeat;
+      background-image: url("assets/dots-block-blue.png");
+      background-size: contain;
+      height: 150px;
+      width: 470px;
+      z-index: -1;
+    }
+  }
+}
